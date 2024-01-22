@@ -61,7 +61,7 @@ class AuthenticationViewModel : ViewModel() {
             withContext(Dispatchers.Main){
                 uiState.value = uiState.value.copy(
                     isLoading = false,
-                    error = "Something Went Wrong"
+                    error = "Login Success!"
                 )
             }
         }
